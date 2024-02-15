@@ -12,18 +12,6 @@ function NavBar({ setPokemonIndex, pokemonList }) {
           {pokemon.name}
         </button>
       ))}
-
-      {/*{pokemonIndex > 0 && (*/}
-      {/*  <button type="button" onClick={previous}>*/}
-      {/*    Previous*/}
-      {/*  </button>*/}
-      {/*)}*/}
-      {/*{pokemonIndex}*/}
-      {/*{pokemonIndex < pokemonList.length - 1 && (*/}
-      {/*  <button type="button" onClick={next}>*/}
-      {/*    Next*/}
-      {/*  </button>*/}
-      {/*)}*/}
     </nav>
   );
 }
